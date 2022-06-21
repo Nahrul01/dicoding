@@ -15,20 +15,16 @@ class Homepage extends StatelessWidget {
                 width: 400,
                 height: 150,
               ),
-              Padding(
-                padding: const EdgeInsets.only(top: 30, left: 20),
-                child: Row(
+              Center(
+                child: Column(
                   children: const [
                     CircleAvatar(
                       radius: 50,
                       backgroundImage: AssetImage('assets/profil.jpg'),
                     ),
-                    SizedBox(
-                      width: 5,
-                    ),
                     Text('Dicoding Academy',
                         style: TextStyle(
-                            fontSize: 30,
+                            fontSize: 20,
                             fontWeight: FontWeight.bold,
                             color: Colors.black)),
                   ],
